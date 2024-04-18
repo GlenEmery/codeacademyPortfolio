@@ -16,6 +16,10 @@
     margin: 20px;
 }
 
+nav {
+    background-color: #F5E9B8;
+}
+
 .intro {
     background-image: url('./images/bg.jpg');
     background-repeat: none;
@@ -24,7 +28,21 @@
     height: 900px;
 }
 
-nav ol {
-    /* display: inline-block; */
-    display: block;
+.hidden {
+    display: none;
+}
+
+#aboutMe {
+    background-color: transparent;
+}
+
+#portfolio {
+    display: flex;
+    padding: 10px;
+}
+
+.portfolioTile {
+    height: 200px;
+    width: 200px;
+    margin: 10px;
 }

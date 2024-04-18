@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="app.js"></script>
     <title>Glen Emery Portfolio</title>
 </head>
 <header>
     <nav>
         <ol>
-            <li>About</li>
-            <li>Portfolio</li>
-            <li>Contact</li>
+            <li><a href='#aboutMe'>About</a></li>
+            <li><a href='#portfolio'>Portfolio</a></li>
+            <li><a href='#contact'>Contact</a></li>
         </ol>
+        <button id="button">Menu</button>
     </nav>
 </header>
 <body>
@@ -24,7 +26,7 @@
             <img src="./images/bg.jpg" alt="shows a background of ...">
         </div> -->
     </div>
-    <div class="aboutMe">
+    <div id="aboutMe">
         <h1>About Me</h1>
         <p id="details">Lorum ipsum ipsum loren Lorum ipsum ipsum loren Lorum ipsum ipsum loren
             Lorum ipsum ipsum loren Lorum ipsum ipsum loren Lorum ipsum ipsum loren Lorum ipsum ipsum loren
@@ -56,11 +58,21 @@
             Lorum ipsum ipsum loren Lorum ipsum ipsum loren Lorum ipsum ipsum loren Lorum ipsum ipsum loren
         </p>
     </div>
-    <div class="contact">
+    <h2>Portfolio</h2>
+    <div id="portfolio">
+        
+        <div class="portfolioTile">Project One</div>
+        <div class="portfolioTile">Project Two</div>
+        <div class="portfolioTile">Project Three</div>
+        <div class="portfolioTile">Project Four</div>
+    </div>
+    <div id="contact">
+        <h3>Contact</h3>
         <div class="email">
 
         </div>
-        <div class="social">
+        <h4>Socials</h4>
+        <div id="social">
             <div class="social1"></div>
             <div class="social2"></div>
         </div>
